@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #303030;
     height: 100vh;
     width: 100%;
 }
@@ -46,7 +46,7 @@ section {
     display: inline-block;
     margin-top: 1.5rem;
     background-color: rgb(27, 153, 236);
-    color: #f5f5f5;
+    color: #303030;
     padding: 1.5rem 2.5rem;
     border-radius: 1.5rem;
     font-size: 1.5rem;
@@ -60,8 +60,8 @@ section {
 .header {
     position: fixed;
     top: 0; left: 0; right: 0;
-    background-color: #fff;
-    box-shadow: 0 .5rem .5rem rgba(0,0,0, 0.208);
+    background-color: #303030;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0, 0.308);
     z-index: 1000;
 }
 
@@ -75,11 +75,12 @@ section {
 
 .header .flex .logo {
     cursor: pointer;
+    margin-top: 0;
 }
 
 .header .flex .logo img {
-    height: 5rem;
-     border-radius: 50%;
+    height: 7rem;
+    border-radius: 50%;
 }
 
 span {
@@ -88,7 +89,7 @@ span {
 }
 
 .header .flex .navbar a  {
-    color: #333;
+    color: #f5f5f5;
     margin-left: 3rem;
     font-size: 1.4rem;
 }
@@ -100,7 +101,7 @@ span {
 
 #burguer {
     display: none;
-    color: #333;
+    color: #f5f5f5;
     font-size: 1.9rem;
     cursor: pointer;
 }
@@ -156,21 +157,21 @@ span {
 
 .sobre .content h2 {
     font-size: 3.5rem;
-    color: #333;
+    color: #f5f5f5;
     font-family: 'Merienda', cursive;
 }
 
 .sobre .content p {
     font-size: 1.8rem;
-    color: #333;
-    margin: 3rem 0;
+    color: #f5f5f5;
+    margin: 1.7rem 0;
     text-transform: none;
 }
 
 .produto h2 {
     text-align: center;
     font-size: 3.5rem;
-    color: #333;
+    color: #f5f5f5;
     font-family: 'Merienda', cursive;
     margin-bottom: 1.7rem;
 }
@@ -209,7 +210,7 @@ span {
 }
 
 .produto .cards .card h3 {
-    color: #333;
+    color: #f5f5f5;
     margin-top: 0;
     font-size: 2rem;
     font-family: 'Merienda', cursive;
@@ -242,7 +243,7 @@ button:hover {
 .contacto h2 {
     text-align: center;
     font-size: 3.5rem;
-    color: #333;
+    color: #f5f5f5;
     font-family: 'Merienda', cursive;
     margin-bottom: 1.7rem;
 }
@@ -272,16 +273,16 @@ button:hover {
 
 .contacto form h3 {
     font-size: 2.5rem;
-    color: #333;
+    color: #f5f5f5;
     margin-bottom: 1rem;
 }
 
 .contacto form .box {
     width: 100%;
     padding: 1.4rem;
-    background-color: #fff;
+    background-color: #333;
     font-size: 1.8rem;
-    color: #333;
+    color: #f5f5f5;
     border: .1rem solid rgb(27, 153, 236);
     margin: 1rem 0;
     text-transform: capitalize;
@@ -312,14 +313,14 @@ button:hover {
 .footer .box-container .box h3 {
     margin: 1rem 0;
     font-size: 2rem;
-    color: #333;
+    color: #f5f5f5;
     font-weight: 300;
 }
 
 .footer .box-container .box p {
     line-height: 2;
     font-size: 1.5rem;
-    color: #333;
+    color: #f5f5f5;
     text-transform: capitalize;
 }
 
@@ -327,7 +328,7 @@ button:hover {
     text-align: center;
     margin-top: 3rem;
     padding-top: 2.5rem;
-    color: #333;
+    color: #f5f5f5;
     font-size: 1.6rem;
     border-top: .1rem solid rgb(27, 153, 236);
 }
@@ -338,7 +339,7 @@ button:hover {
 
 .galeria h2 {
     font-size: 3.5rem;
-    color: #333;
+    color: #f5f5f5;
     font-family: 'Merienda', cursive;
     text-align: center;
     margin-bottom: 1.7rem;
@@ -420,7 +421,7 @@ button:hover {
         top: 99%; right: 0; left: 0;
         border-top: 2px solid rgb(27, 153, 236);
         border-bottom: 2px solid rgb(27, 153, 236);
-        background-color: #fff;
+        background-color: #303030;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
     }
@@ -433,7 +434,7 @@ button:hover {
         display: block;
         margin: 4.5rem;
         font-size: 2rem;
-        color: #333;
+        color: #f5f5f5;
     }
 
     .img-bg .img .content h1 {
