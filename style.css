@@ -50,6 +50,7 @@ section {
     padding: 1.5rem 2.5rem;
     border-radius: 1.5rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -233,6 +234,7 @@ button {
     border: 0;
     border-radius: .5rem;
     background: linear-gradient(to right, #333, rgb(27, 153, 236));
+    cursor: pointer;
 }
 
 button:hover {
